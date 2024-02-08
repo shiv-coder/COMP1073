@@ -1,14 +1,27 @@
 // STEP 1: Declare and initialize a global variable (x = 1)
-
+let x = 1;
 
 // STEP 2: Build a function that accepts no parameters, and also declares and intializes a variable within it (y = 2)
 
+function a(){
+    let y = 2;
+    output(z);
 
+}
 // STEP 3: Build another function that also accepts no parameters, and also declares and intializes a variable within it (z = 3)
-
+function b(){
+    let z=3;
+    output(y);
+};
 
 // STEP 4: Analyze the following function that accepts a value, then creates an H2 element, injects it into the DOM, then sets the content to the value of the parameter passed into it when in was called (invoked)
+function output(value){
+    const elem = document.createElement('h2');
+    document.body.prepend(elem);
+    elem.textContent = 'Value of variable is: '+ value;
 
+}
+//output(x);
 
 /* STEP 5: Punch the following directly into the console:
 output(x)
