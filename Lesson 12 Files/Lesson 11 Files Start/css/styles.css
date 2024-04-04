@@ -1,0 +1,18 @@
+/* Page Styles */
+@charset "utf-8";
+body {
+	font-family: sans-serif;
+	font-size: 150%;
+	line-height: 1.4;
+	width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* STEP 5c: Build out the same styles (but set background-color to gold, instead of black) that we applied directly with JavaScript inside a .highlight selector - we will then return to the JavaScript and add/remove this class from the appropriate element node */
+.highlight {
+	color: white;
+	background-color: gold;
+	padding: 10px;
+	width: 250px;
+	text-align: center;
+}
